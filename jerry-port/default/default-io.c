@@ -78,7 +78,7 @@ jerry_port_log (jerry_log_level_t level, /**< log level */
   {
     va_list args;
     va_start (args, format);
-    vfprintf (stderr, format, args);
+    //vfprintf (stderr, format, args);
     va_end (args);
   }
 } /* jerry_port_log */
